@@ -8,7 +8,7 @@ const Navbar = () => {
 
 <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"rgb(66, 66, 226)"}}>
         <div className="container-fluid">
-         <Link to="/NewEmployeeApp">Employee</Link>
+         <Link to="/" style={{textDecoration:"none",color:"black"}}>HOME</Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,7 +24,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               
                 <li className="nav-item">
-                 <Link to="/NewEmployeeApp">Home</Link>
+                 <Link to="/">Employee</Link>
                 </li>
              
              
