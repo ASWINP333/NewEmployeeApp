@@ -8,7 +8,7 @@ const Navbar = () => {
 
 <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"rgb(66, 66, 226)"}}>
         <div className="container-fluid">
-         <Link to="/">Employee</Link>
+         <Link to="/NewEmployeeApp">Employee</Link>
           <button
             className="navbar-toggler"
             type="button"
