@@ -24,12 +24,12 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               
                 <li className="nav-item">
-                 <Link to="/">Employee</Link>
+                 <Link to="/" style={{textDecoration:"none",color:"black"}}>Employee</Link>
                 </li>
              
              
                 <li className="nav-item">
-                  <Link to ="/form">Employee Form</Link>
+                  <Link to ="/form" style={{textDecoration:"none",color:"black"}}>Employee Form</Link>
                 </li>
              
             </ul>
