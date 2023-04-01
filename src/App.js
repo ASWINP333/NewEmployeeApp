@@ -7,7 +7,7 @@ import Home from './components/Home/Home';
 function App() {
   return (
     <div >
-<BrowserRouter>
+<BrowserRouter basename='/NewEmployeeApp'>
 <Routes>
 <Route path='/' element={<Home/>} />
 <Route path='/form' element={<Form/>} />

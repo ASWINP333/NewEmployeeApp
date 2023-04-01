@@ -24,12 +24,12 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               
                 <li className="nav-item">
-                 <Link to="/">Home</Link>
+                 <Link to="/NewEmployeeApp">Home</Link>
                 </li>
              
              
                 <li className="nav-item">
-                  <Link to ="/form">Employee Form</Link>
+                  <Link to ="/NewEmployeeApp/form">Employee Form</Link>
                 </li>
              
             </ul>
